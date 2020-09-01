@@ -1,0 +1,65 @@
+.game-page-container {
+  height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.left-container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.right-container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.question-container {
+  background-color: #1d1f20;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  min-height: 300px;
+  padding: 20px;
+  width: 100%;
+}
+
+.category-container {
+  align-items: center;
+  background-color: #2a2d2e;
+  border-radius: 10px;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.question-category {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.question {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn-next {
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+}

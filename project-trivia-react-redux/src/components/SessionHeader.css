@@ -1,0 +1,25 @@
+.session-header {
+  align-items: center;
+  background-color: #1d1f20;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.gravatar-icon {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.player-info {
+  align-items: center;
+  display: flex;
+}
+
+.header-player-name {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
