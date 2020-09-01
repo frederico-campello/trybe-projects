@@ -1,0 +1,17 @@
+.recipe-photo {
+  border-radius: 6px 0;
+  height: 109px;
+  left: 13px;
+  top: 163px;
+  width: 161px;
+}
+
+.recomendationContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.reconedationCard {
+  margin: 15px;
+}

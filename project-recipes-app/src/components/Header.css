@@ -1,0 +1,8 @@
+.header-foods-drinks {
+  align-items: center;
+  background-color: gray;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
