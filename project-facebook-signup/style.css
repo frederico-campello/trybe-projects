@@ -1,0 +1,477 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  display: flex;
+  height: 82px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+.flex-item-left {
+  height: 55px;
+  width: 170px;
+}
+
+.facebook-logo {
+  height: 34px;
+  margin-top: 17px;
+  width: 170px;
+}
+
+.flex-item-right {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  justify-content: flex-end;
+  padding: 0 0 0 14px;
+  width: 392px;
+}
+
+.linha-1 {
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  width: 392px;
+}
+
+.linha-1 > .email-telefone {
+  height: 16.828px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  width: 150px;
+}
+
+.email-telefone > .user-email-phone-label {
+  color: white;
+  font-weight: 400;
+  padding-left: 1px;
+}
+
+.linha-1 > .senha {
+  height: 16.828px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  width: 150px;
+}
+
+.senha > .user-password-label {
+  color: white;
+  font-weight: 400;
+  padding-left: 1px;
+}
+
+.linha-2 {
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  width: 392px;
+}
+
+.input-email-telefone {
+  height: 24px;
+  padding-left: 14px;
+  width: 150px;
+}
+
+.user-email-phone {
+  border: 1px solid #1d2a5b;
+  height: 14px;
+  padding: 3px 3px 4px;
+  width: 142px;
+}
+
+.input-senha {
+  height: 24px;
+  padding-left: 14px;
+  width: 150px;
+}
+
+.user-password {
+  border: 1px solid #1d2a5b;
+  height: 14px;
+  padding: 3px 3px 4px;
+  width: 142px;
+}
+
+.entrar {
+  height: 24px;
+  padding-left: 14px;
+  width: 50px;
+}
+
+.background-button {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-color: #29487d;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  height: 18px;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 35.344px;
+}
+
+.button-login {
+  background: none;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 18px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  width: 35.344px;
+}
+
+.linha-3 {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  width: 392px;
+}
+
+.empty {
+  height: 16px;
+  padding-left: 14px;
+  padding-top: 4px;
+  width: 150px;
+}
+
+.esqueceu-a-conta {
+  height: 16px;
+  padding-left: 14px;
+  padding-top: 4px;
+  width: 150px;
+}
+
+.esqueceu-a-conta > a {
+  color: #9cb4d8;
+  cursor: pointer;
+  font-weight: 400;
+  height: 14px;
+  text-decoration: none;
+  width: 102.75px;
+}
+
+.global-container {
+  min-height: 640px;
+}
+
+.gradient {
+  background: linear-gradient(white, #d3d8e8);
+  height: 624.941px;
+  min-width: 980px;
+}
+
+.gradient-content {
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+}
+
+.clearfix {
+  display: flex;
+  flex-direction: row;
+  height: 624.941px;
+  width: 980px;
+}
+
+.lfloat_ohe {
+  height: 325px;
+  width: 580px;
+}
+
+.conteudo-esquerda {
+  height: 285px;
+  margin-right: 15px;
+  width: 565px;
+}
+
+.texto {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  height: 86.25px;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.imagem-networking {
+  border: 0;
+  height: 195px;
+  width: 537px;
+}
+
+.rfloat-ohf {
+  max-width: 400px;
+}
+
+.conteudo-direita {
+  max-width: 400px;
+}
+
+.texto-direita {
+  height: 77.5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 400px;
+}
+
+.abra-uma-conta {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  height: 47.5px;
+  margin-bottom: 5px;
+  width: 400px;
+}
+
+.rapido-facil {
+  color: #1d2129;
+  font-size: 19px;
+}
+
+.registration-form {
+  height: 507.441px;
+  width: 400px;
+}
+
+._58mf {
+  height: 462.441px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 400px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  flex-direction: row;
+}
+
+.nome {
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+.input-nome , .input-sobrenome {
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 172px;
+}
+
+.sobrenome {
+  margin-bottom: 10px;
+}
+
+.celular-email , .nova-senha {
+  height: 37.969px;
+  margin-bottom: 10px;
+  width: 398.984px;
+}
+
+.input-celular-email , .input-nova-senha , .input-data-nascimento {
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 377px;
+}
+
+.label-data-nascimento {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.genero {
+  margin-top: 10px;
+  position: relative;
+}
+
+.texto-genero {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.radio-buttons {
+  display: inline-block;
+}
+
+.female {
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+  margin-right: 4px;
+  padding: 5px 0 5px 4px;
+}
+
+.male , .custom {
+  border-radius: 4px;
+  border-width: 1px;
+  display: inline-block;
+}
+
+.feminino , .masculino , .personalizado {
+  margin: 3px 3px 0 5px;
+}
+
+.label-feminino , .label-masculino , .label-personalizado {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+  vertical-align: middle;
+}
+
+.informacoes {
+  width: 399px;
+}
+
+.small-text {
+  color: #777;
+  font-size: 11px;
+  margin: 11px 0;
+  width: 316px;
+}
+
+.facebook-register {
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 400;
+  line-height: 126%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.criar-pagina {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.link-criar-pagina {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pageFooter {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.localSelector {
+  align-items: center;
+  color: #737373;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 8px 0 0;
+}
+
+li {
+  display: inline-block;
+  padding-right: 0;
+}
+
+.pt {
+  padding-left: 0;
+}
+
+.en , .es , .fr , .it , .ar , .de , .hi , .ch , .jp , .btnIdiomas {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.maisIdiomas {
+  background-color: #f5f6f7;
+  border: 1px solid;
+  border-color: #ccd0d5;
+  border-radius: 2px;
+  box-sizing: content-box;
+  color: #4b4f56;
+  font-size: 12px;
+  height: 18px;
+  padding: 0 8px;
+}
+
+.line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.sitesFacebook {
+  line-height: 1.6;
+  list-style-type: none;
+  margin: 12px 0 12px -20px;
+  padding: 0;
+}
+
+.sitesFacebook > li {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.copyright {
+  font-size: 11px;
+  margin: 20px 0;
+}
